@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
-import { FaBars, FaTimes } from 'react-icons/fa'
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 
 
 const Navbar = () => {
@@ -14,14 +14,17 @@ const Navbar = () => {
             <Link to='/' ><h1>Kayla Nesbitt</h1></Link>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li>
-                    <Link to='/'>Experience</Link>
-                </li>
-                <li>
                     <Link to='/'>Projects</Link>
                 </li>
                 <li>
-                    <Link to='/'>Activities</Link>
+                    <Link to='/activities'>Activities</Link>
                 </li>
+                <div className='github'>
+                    <a href='https://github.com/kaylanesbitt' target='_blank'><FaGithub size={20} style={{ color: '#ffffff', marginRight: '2rem' }} /></a>
+                </div>
+                <div className='linkedin'>
+                    <a href='https://www.linkedin.com/in/kayla-nesbitt/' target='_blank' ><FaLinkedin size={20} style={{ color: '#ffffff', marginRight: '2rem' }} /></a>
+                </div>
             </ul>
             <div className='hamburger' onClick={handleClick}>
                 {click ? (<FaTimes size={20} style={{ color: '#fff' }} />) : (<FaBars size={20} style={{ color: '#fff' }} />)}

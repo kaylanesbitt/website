@@ -1,0 +1,38 @@
+.credit-karma {
+    padding: 150px;
+    justify-content: center;
+    position: sticky;
+    align-items: center;
+    height: 100px;
+}
+
+.ck-header {
+    padding: 30px;
+    vertical-align: middle;
+    display: inline;
+}
+
+.ck-photo {
+    height: 30px;
+    left: -100px;
+}
+
+.ck-text {
+    padding: 10px;
+}
+
+.ta {
+    padding: 150px;
+    justify-content: center;
+    position: sticky;
+    align-items: center;
+    height: 100px;
+}
+
+.ra {
+    padding: 150px;
+    justify-content: center;
+    position: sticky;
+    align-items: center;
+    height: 100px;
+}
