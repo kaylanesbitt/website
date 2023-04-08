@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaLinkedin, FaPhone, FaGithub } from 'react-icons/fa'
+import { FaLinkedin, FaGithub } from 'react-icons/fa'
 import { GrLocation } from 'react-icons/gr'
 import { FiMail } from 'react-icons/fi'
 
@@ -8,15 +8,19 @@ export const Footer = () => {
         <div className='footer'>
             <div className='footer-container'>
                 <div className='left'>
-                    <div className='location'>
-                        <GrLocation size={20} style={{ color: '#ffffff', marginRight: '2rem' }} />
-                    </div>
-                    <div>
-                        <h4>Chapel Hill, NC</h4>
+                    <div className='mail'>
+                        <a href='kaylanes@live.unc.edu'><FiMail size={20} style={{ color: '#ffffff', marginRight: '2rem' }} /></a>
                     </div>
                     <div className='github'>
                         <a href='https://github.com/kaylanesbitt'><FaGithub size={20} style={{ color: '#ffffff', marginRight: '2rem' }} /></a>
                     </div>
+                    <div className='linkedin'>
+                        <a href='https://www.linkedin.com/in/kayla-nesbitt/'><FaLinkedin size={20} style={{ color: '#ffffff', marginRight: '2rem' }} /></a>
+                    </div>
+                </div>
+                <div className='right'>
+                    <h4>About me</h4>
+                    <p>sick bro</p>
                 </div>
             </div>
         </div>
