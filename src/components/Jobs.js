@@ -1,11 +1,11 @@
 import React from 'react'
-import './Experience.css'
+import './Jobs.css'
 import photo from '../assets/ck_icon.png'
 
-const Experience = () => {
+const Jobs = () => {
     return (
         <div>
-            <article className='credit-karma'>
+            <section className='credit-karma'>
                 <div className='ck-header'>
                     <img className='ck-photo' src={photo}></img>
                     <h4 className='ck-title'>Credit Karma - Software Engineer Intern</h4>
@@ -15,7 +15,7 @@ const Experience = () => {
                     various credit bureaus. I learned about how different database systems work, like PubSub and S3.
                 </p>
 
-            </article>
+            </section>
 
             <article className='ta'>
                 <h4>UNC CS Department - Undergraduate Teaching Assistant</h4>
@@ -32,4 +32,4 @@ const Experience = () => {
     )
 }
 
-export default Experience
+export default Jobs

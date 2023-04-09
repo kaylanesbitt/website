@@ -7,6 +7,7 @@
     align-items: center;
     padding: 1rem;
     z-index: 10;
+    background: black;
 }
 
 .nav-menu {
@@ -43,7 +44,7 @@
         height: 100vh;
         transition: 0.3s;
         z-index: -1;
-        background: rgba(0, 0, 0, .9)
+
     }
 
     .nav-menu.active {

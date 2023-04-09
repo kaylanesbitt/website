@@ -1,0 +1,10 @@
+.navbar {
+    height: 100px;
+}
+
+.experience {
+    border: 5px solid white;
+    position: sticky;
+    top: 100px;
+
+}

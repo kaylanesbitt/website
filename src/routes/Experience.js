@@ -1,16 +1,16 @@
 import React from 'react'
-import './Home.css'
+import Jobs from '../components/Jobs'
 import Navbar from '../components/Navbar'
 
-const Home = () => {
+export const Experience = () => {
     return (
         <div>
-            <div className='navbar'>
+            <div>
                 <Navbar></Navbar>
             </div>
-            <div>welcome to my website whores</div>
+            <div>
+                <Jobs></Jobs>
+            </div>
         </div>
     )
 }
-
-export default Home

@@ -14,11 +14,15 @@ const Navbar = () => {
             <Link to='/' ><h1>Kayla Nesbitt</h1></Link>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li>
+                    <Link to='/experience'>Experience</Link>
+                </li>
+                <li>
                     <Link to='/'>Projects</Link>
                 </li>
                 <li>
                     <Link to='/activities'>Activities</Link>
                 </li>
+
                 <div className='github'>
                     <a href='https://github.com/kaylanesbitt' target='_blank'><FaGithub size={20} style={{ color: '#ffffff', marginRight: '2rem' }} /></a>
                 </div>
