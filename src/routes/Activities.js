@@ -12,10 +12,9 @@ export const Activities = () => {
                 <Navbar></Navbar>
             </div>
             <div>
+                <img className='techx-image' src={techx} alt=''></img>
                 <article className='techx'>
                     <h4 >TechX - Cohort President</h4>
-
-                    <img className='techx-image' src={techx} alt=''></img>
                     <p>TechX is a society designed to develop undergraduates' technical skills. During my membership in the club, I have
                         learned how to make front-end websites using React, and how to create a database system and backend server using Node.
                         As cohort president, I act as a spokesperson for Cohort I during exec board meetings, and a medium through which exec

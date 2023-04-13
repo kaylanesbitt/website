@@ -5,10 +5,10 @@
 }
 
 .techx-img {
-    margin: 10px, 10px, 0, 0;
-    height: 50px;
-    float: left;
-    vertical-align: center;
+    height: 30px;
+    position: sticky;
+    padding: 1000px, 50px;
+    margin: auto;
 }
 
 .techx-content {
