@@ -1,3 +1,19 @@
 .navbar {
     height: 100px;
 }
+
+.website {
+    padding: 100px;
+    justify-content: center;
+    position: sticky;
+    align-items: center;
+    height: 50px;
+}
+
+.prof-org {
+    padding: 100px;
+    justify-content: center;
+    position: sticky;
+    align-items: center;
+    height: 100px;
+}

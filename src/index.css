@@ -50,6 +50,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #4B9CD3;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

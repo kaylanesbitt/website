@@ -1,0 +1,41 @@
+.techx {
+    padding: 150px;
+    position: sticky;
+    height: 100px;
+}
+
+.techx-img {
+    margin: 10px, 10px, 0, 0;
+    height: 50px;
+    float: left;
+    vertical-align: center;
+}
+
+.techx-content {
+    height: 100px;
+    width: 200px;
+    vertical-align: middle;
+    display: inline;
+    flex: auto;
+}
+
+.techx-header {
+    margin: 30px 80px;
+    background-color: black;
+}
+
+.pickle-club {
+    padding: 150px;
+    justify-content: center;
+    position: sticky;
+    align-items: center;
+    height: 100px;
+}
+
+.gwc {
+    padding: 150px;
+    justify-content: center;
+    position: sticky;
+    align-items: center;
+    height: 100px;
+}
