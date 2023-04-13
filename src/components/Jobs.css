@@ -4,22 +4,10 @@
     position: sticky;
     align-items: center;
     height: 100px;
-    border: 10px solid white;
-}
-
-.ck-header {
-    padding: 30px;
-    vertical-align: middle;
-    display: inline;
 }
 
 .ck-photo {
     height: 30px;
-    left: -100px;
-}
-
-.ck-text {
-    padding: 10px;
 }
 
 .ta {
@@ -28,7 +16,19 @@
     position: sticky;
     align-items: center;
     height: 100px;
-    border: 10px solid green;
+}
+
+.ta-photo {
+    height: 30px;
+    left: -100px;
+}
+
+.ta-text-1 {
+    padding: 300px, 400px;
+}
+
+.ta-text-2 {
+    padding: 300px, 200px;
 }
 
 .ra {
@@ -37,4 +37,8 @@
     position: sticky;
     align-items: center;
     height: 100px;
+}
+
+.ra-photo {
+    height: 30px;
 }

@@ -2,9 +2,38 @@
     height: 100px;
 }
 
-.experience {
-    border: 5px solid white;
-    position: sticky;
-    top: 100px;
+.about-me {
+    margin: auto;
+    padding: 20px;
+    width: 700px;
+    justify-content: center;
+}
 
+.about-header {
+    text-align: center;
+}
+
+.cfg {
+    display: block;
+    height: 360px;
+    margin: auto;
+    padding: 50px;
+}
+
+.dfg {
+    padding: 50px;
+    display: block;
+    height: 360px;
+    margin: auto;
+}
+
+.headshot {
+    padding: 50px;
+    display: block;
+    height: 350px;
+    margin: auto;
+}
+
+.images {
+    align-items: center;
 }
