@@ -12,9 +12,10 @@ export const Activities = () => {
                 <Navbar></Navbar>
             </div>
             <div>
-                <img className='techx-image' src={techx} alt=''></img>
+
                 <article className='techx'>
-                    <h4 >TechX - Cohort President</h4>
+                    <img className='techx-image' src={techx} alt=''></img>
+                    <h4>TechX - Cohort President</h4>
                     <p>TechX is a society designed to develop undergraduates' technical skills. During my membership in the club, I have
                         learned how to make front-end websites using React, and how to create a database system and backend server using Node.
                         As cohort president, I act as a spokesperson for Cohort I during exec board meetings, and a medium through which exec
@@ -23,6 +24,7 @@ export const Activities = () => {
                         This is my first semester as a member of TechX.</p>
                 </article>
                 <article className='pickle-club'>
+                    <img className='pickle-image' src={unc} alt='' />
                     <h4>UNC Club Pickleball - Member</h4>
                     <p>
                         As a member of UNC Club Pickleball, I have participated in about 3 collegiate matches and 2 collegiate tournaments.
@@ -30,7 +32,15 @@ export const Activities = () => {
                         I have been a member of UNC club pickleball for 3 semesters.
                     </p>
                 </article>
+                <article className='fever'>
+                    <img className='pickle-image' src={unc} alt='' />
+                    <h4>Carolina Fever - Participant</h4>
+                    <p>I participate in Carolina Fever. I love supporting Carolina Athletics in the student section!
+                        It's a great way to spend time with friends and get guaranteed football and basketball tickets...
+                    </p>
+                </article>
                 <article className='gwc'>
+                    <img className='gwc-image' src={gwc} alt='' />
                     <h4>Girls Who Code - Teaching Assistant</h4>
                     <p>
                         Girls Who Code is a club that provides classes to local middle and high school girls to introduce them to computer science topics.

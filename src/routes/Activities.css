@@ -2,29 +2,29 @@
     padding: 150px;
     position: sticky;
     height: 100px;
-}
-
-.techx-img {
-    height: 30px;
-    position: sticky;
-    padding: 1000px, 50px;
+    justify-content: center;
     margin: auto;
 }
 
-.techx-content {
-    height: 100px;
-    width: 200px;
-    vertical-align: middle;
-    display: inline;
-    flex: auto;
-}
-
-.techx-header {
-    margin: 30px 80px;
-    background-color: black;
+.techx-image {
+    height: 50px;
+    position: sticky;
+    margin: auto;
 }
 
 .pickle-club {
+    padding: 150px;
+    justify-content: center;
+    position: sticky;
+    align-items: center;
+    height: 100px;
+}
+
+.pickle-image {
+    height: 30px;
+}
+
+.fever {
     padding: 150px;
     justify-content: center;
     position: sticky;
@@ -38,4 +38,8 @@
     position: sticky;
     align-items: center;
     height: 100px;
+}
+
+.gwc-image {
+    height: 40px;
 }
